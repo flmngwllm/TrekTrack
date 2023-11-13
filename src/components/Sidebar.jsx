@@ -1,12 +1,13 @@
+import { Outlet } from "react-router-dom";
 import Logo from "./Logo";
-import Nav from "./Nav";
 import styles from "./Sidebar.module.css";
+import AppNav from "./AppNav";
 function Sidebar() {
   return (
     <div className={styles.sidebar}>
       <Logo />
-      <Nav />
-      <p>List of cities</p>
+      <AppNav />
+      <Outlet />
       <footer className={styles.footer}>
         <p className={styles.copywright}>
           &copy; Copywright {new Date().getFullYear()} by TrekTrack Inc.
