@@ -1,12 +1,12 @@
 import Nav from "../components/Nav";
 
-function Product() {
+function PageNotFound() {
   return (
     <div>
       <Nav />
-      <h1>Product</h1>
+      <h1>Page Not Found</h1>
     </div>
   );
 }
 
-export default Product;
+export default PageNotFound;
