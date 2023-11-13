@@ -1,9 +1,9 @@
-import { Link } from "react-router-dom";
+import Nav from "../components/Nav";
 
 function Homepage() {
   return (
     <div>
-      <Link to="/pricing">Pricing</Link>
+      <Nav />
     </div>
   );
 }
